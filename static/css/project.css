@@ -1,0 +1,71 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: radial-gradient( circle farthest-corner at 15% 20%,  rgb(18 72 78) 10%, rgb(0, 0, 0) 85% );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Projects Container */
+#projects-container {
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background: #5ef5b0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Project Box */
+.project {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Add a separator between projects */
+}
+
+/* Project Title */
+.project h3 {
+    color: #1863DC;
+    background: #08206e;
+}
+
+/* Project Role */
+.project p {
+    font-weight: bold;
+}
+
+/* Project Details List */
+.project ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Project Details List Items */
+.project li {
+    margin-bottom: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+    #projects-container {
+        padding: 10px;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+@media (max-width: 400px) {
+    #projects-container {
+        padding: 5px;
+    }
+
+    /* Add more responsive styles as needed */
+}

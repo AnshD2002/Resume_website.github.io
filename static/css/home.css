@@ -1,0 +1,598 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient( circle farthest-corner at 15% 20%,  rgb(18 72 78) 10%, rgb(0, 0, 0) 85% );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#maincontainer {
+    display: flex;
+    max-width: none;
+    width: 100%;
+    margin: auto;
+    background: #5ef5b0;
+    box-shadow: 0 0 10px rgba(30, 59, 57, 0.1);
+    border-radius: 0px;
+    overflow: hidden;
+    height: 500px;
+}
+
+#leftcontainer {
+    display: flex;
+    float: left;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    margin-right: 0px;
+    background-color: rgb(5, 54, 54);
+    box-shadow: 0 0 10px rgba(255, 254, 254, 0.1);
+    border-radius: 100px;
+    overflow: hidden;
+    max-height: 200px;
+    /* Adjusted height */
+}
+#leftcontentcontainer{
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    height: 450px;
+    margin: 10px;
+    margin-left: 0px;
+}
+#rightcontainer {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    height: 260px;
+    /* Adjusted height */
+    max-height: 100%;
+    margin: auto;
+    margin-left: 0px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#left-section {
+    flex: 1;
+    padding: 12px;
+    padding-top: 10%;
+    background-color: rgb(5, 54, 54);
+    max-width: 500px;
+    max-height: 200px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    box-shadow: 5px 10px 15px #000000;
+}
+
+#right-section {
+    
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    padding-top: 15px;
+    background-color: #061e2f;
+    color: #302e2e;
+    height: 260px;
+}
+
+#imgcontainer{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 344px;
+    clear: left;
+    align-self: center;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 0%;
+}
+
+img {
+    margin-left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 30%;
+}
+
+h1{
+    text-align: center;
+    margin: 0%;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #007bff;
+    border: #fff;
+    border-radius: 10%;
+}
+p.protest-riot-regular {
+    position: relative;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.45rem;
+    color:rgb(184, 192, 204)
+  }
+  
+button.b1 {
+    padding: 10px 20px;
+    margin-left: 80px;
+    background-color: #fff;
+    color: #1863DC;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #1863DC;
+    color: #000000;
+}
+@media only screen and (max-width:1412px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        border: 20px;
+    }
+    #imgcontainer{
+        left: 300px;
+    }
+    p.protest-riot-regular{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:1300px){
+    #maincontainer{
+        padding: 15px;
+    }
+    #leftcontentcontainer{
+        width: 400px;
+    }
+    #rightcontainer{
+        margin-left: 10px;
+    }
+    #imgcontainer{
+        left: 120px;
+    }
+    button.b1{
+        margin-left: 45px;
+    }
+}
+
+@media only screen and (max-width:1100px) {
+    #maincontainer{
+        flex-direction: column;
+        left: 40px;
+    }
+    #leftcontentcontainer{
+        height: 130px;
+        width: 400px;
+        margin-left: 400px;
+        margin-top: 170px;
+    }
+    #left-section{
+        padding-top: 0px;
+        margin-top: 10px;
+        height: 100px;
+    }
+
+    #rightcontainer{
+        margin: 0px;
+        margin-left: 250px;
+    }
+    #right-section{
+        padding: 0%;
+    }
+    #imgcontainer{
+        top: 180px;
+        left: 500px;
+    }
+    button.b1{
+        margin-left: 60px;
+    }
+    p.protest-riot-regular{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:1020px) {
+    #maincontainer{
+        height: 400px;
+        flex-direction: column;
+        left: 40px;
+    }
+    #leftcontentcontainer{
+        height: 200px;
+        width: 400px;
+        margin-left: 340px;
+        margin-top: 100px;
+    }
+    #leftcontainer{
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    #left-section{
+        padding: 0px;
+        margin-top: 10px;
+        height: 100px;
+    }
+    #rightcontainer{
+        height: 200px;
+        margin: 0px;
+        margin-left: 200px;
+    }
+    #right-section{
+        padding: 0%;
+    }
+    #imgcontainer{
+        left: 440px;
+        top: 200px;
+    }
+    p.protest-riot-regular{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:1000px) {
+    #maincontainer{
+        height: 400px;
+        flex-direction: column;
+        left: 40px;
+    }
+    #leftcontentcontainer{
+        height: 200px;
+        width: 400px;
+        margin-left: 260px;
+        margin-top: 100px;
+    }
+    #leftcontainer{
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    #left-section{
+        padding: 0px;
+        margin-top: 10px;
+        height: 90px;
+    }
+    #rightcontainer{
+        height: 200px;
+        margin: 0px;
+        margin-left: 120px;
+    }
+    #right-section{
+        padding: 0%;
+    }
+    #imgcontainer{
+        height: 180px;
+        width: 180px;
+        left: 370px;
+    }
+    p.protest-riot-regular{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:900px) {
+
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 210px;
+        border: 20px;
+    }
+    #leftcontainer{
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    #left-section{
+        padding: 0px;
+        margin-top: 0px;
+        height: 82px;
+    }
+    #rightcontainer{
+        height: 200px;
+        margin: 0px;
+        margin-left: 70px;
+    }
+    #imgcontainer{
+        left: 310px;
+        top: 150px;
+        height: 170px;
+        width: 170px;
+    }
+}
+@media only screen and (max-width:820px),(max-height:800px) {
+
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 170px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    #imgcontainer{
+        left: 280px;
+        top: 115px;
+        height: 150px;
+        width: 150px;
+    }
+    p.protest-riot-regular{
+        font-size: 21px;
+    }
+}
+
+@media only screen and (max-width:725px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 170px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+        margin-left: 20px;
+    }
+    #imgcontainer{
+        left: 280px;
+        top: 125px;
+        height: 130px;
+        width: 130px;
+    }
+    p.protest-riot-regular{
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width:680px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 115px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+    }
+    #right-section{
+        padding: 2%;
+    }
+    #imgcontainer{
+        left: 220px;
+        top: 125px;
+    }
+    p.protest-riot-regular{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:600px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 80px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+    }
+    #right-section{
+        padding: 2%;
+    }
+    #imgcontainer{
+        left: 200px;
+        top: 125px;
+    }
+    p.protest-riot-regular{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:550px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 60px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+    }
+    #right-section{
+        padding: 2%;
+    }
+    #imgcontainer{
+        left: 150px;
+        top: 125px;
+    }
+    p.protest-riot-regular{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width:500px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 20px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+    }
+    #right-section{
+        padding: 2%;
+    }
+    #imgcontainer{
+        left: 150px;
+        top: 125px;
+    }
+    p.protest-riot-regular{
+        font-size: 18px;
+    }
+}
+@media (max-width:460px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 0px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+    }
+    #right-section{
+        padding: 2%;
+    }
+    #leftcontainer{
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+    #left-section{
+        padding: 0px;
+        margin-top: 10px;
+        height: 80px;
+    }
+    #imgcontainer{
+        left: 120px;
+        top: 150px;
+    }
+    button.b1{
+        margin-left: 40;
+    }
+    p.protest-riot-regular{
+        font-size: 18px;
+    }
+}
+@media (max-width:420px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 0px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+    }
+    #right-section{
+        padding: 2%;
+    }
+    #leftcontainer{
+        width: 350px;
+        padding: 0px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+    #left-section{
+        padding: 0px;
+        margin-top: 10px;
+        height: 80px;
+    }
+    #imgcontainer{
+        left: 100px;
+        top: 150px;
+    }
+    button.b1{
+        margin-left: 40px;
+    }
+    p.protest-riot-regular{
+        font-size: 13px;
+    }
+}
+@media (max-width:380px) {
+    #leftcontentcontainer{
+        margin: 0%;
+        margin-left: 0px;
+        border: 20px;
+    }
+    #rightcontainer{
+        height: fit-content;
+        margin: 0px;
+    }
+    #right-section{
+        padding: 2%;
+    }
+    #leftcontainer{
+        width: 300px;
+        padding: 0px;
+        margin-left: 10px;
+        margin-bottom: 0px;
+    }
+    #left-section{
+        padding: 0px;
+        margin-top: 10px;
+        height: 80px;
+    }
+    #imgcontainer{
+        left: 70px;
+        top: 150px;
+    }
+    button.b1{
+        margin-left: 20px;
+    }
+    p.protest-riot-regular{
+        font-size: 15px;
+    }
+}
+
+@media (min-height:1020px) {
+    #imgcontainer{
+        top: 280px;
+    }
+}
+
+@media (max-height:1020px) {
+    #imgcontainer{
+        top: 250px;
+    }
+}
+@media (max-height:965px) {
+    #imgcontainer{
+        top: 230px;
+    }
+}
+@media (max-height:940px) {
+    #imgcontainer{
+        top: 185px;
+    }
+}
+@media (max-height:900px) {
+    #imgcontainer{
+        top: 165px;
+    }
+}
+@media (max-height:820px) {
+    #imgcontainer{
+        top: 150px;
+    }
+}
+@media (max-height:760px) {
+    #imgcontainer{
+        top: 120px;
+    }
+}
+@media (max-height:700px) {
+    #imgcontainer{
+        top: 90px;
+    }
+}
+@media (max-height:640px) {
+    #imgcontainer{
+        top: 70px;
+    }
+}
+@media (max-height:600px) {
+    #imgcontainer{
+        top: 50px;
+    }
+}
+@media (max-height:560px) {
+    #imgcontainer{
+        top: 30px;
+    }
+}
+@media (max-height:520px) {
+    #imgcontainer{
+        top: 10px;
+    }
+}

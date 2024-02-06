@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../static/css/resume.css"> <!-- Link your CSS file here -->
+    <title>Ansh Dabral - Resume</title>
+</head>
+
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 - Main Information -->
+            <div class="swiper-slide">
+                <div id="main-container">
+                    <h1>Ansh Dabral</h1>
+                    <p>
+                        <a href="mailto:anshdabral182@gmail.com" target="_blank">Email Id: anshdabral182@gmail.com</a><br>
+                        <a href="https://www.linkedin.com/in/ansh-dabral-8847b61b1/" target="_blank">LinkedIn: LinkedIn_Ansh_Dabral</a><br>
+                        <a href="https://github.com/AnshD2002" target="_blank">GitHub: GitHub_Ansh_Dabral</a>
+                    </p>
+                    <h3>PROFESSIONAL SUMMARY</h3>
+                    <p>
+                        Committed and goal-oriented computer science student looking to pursue a career in the Data
+                        Science Domain. Possess excellent knowledge in JAVA, PYTHON, MYSQL. Ability to learn things
+                        quickly and capable of working in a fast-paced and team-driven environment. Always ready to
+                        learn new things and update my knowledge
+                    </p>
+                    <h3> Interpersonal Skills </h3>
+                    <p>
+                        Team Leadership | Management & Coordination | Decision Making
+                    </p>
+                    <h3>INTERESTS & HOBBIES</h3>
+                    <p>Singing | Playing guitar | Travelling | Reading</p>
+                    <h3>LANGUAGES KNOWN</h3>
+                    <p>English | Hindi</p>
+                </div>
+            </div>
+
+            <!-- Slide 2 - Skills -->
+            <div class="swiper-slide">
+                <div id="achievements-container">
+                    <h2> TECHNICAL COMPETENCIES </h2>
+                    <h4> Programming Languages: </h4>
+                    <ul>
+                        <li>Python
+                            <div class="container">
+                                <div class="skill python">80%</div>
+                            </div>
+                        </li>
+                        <li>R
+                            <div class="container">
+                                <div class="skill r">80%</div>
+                            </div>
+                        </li>
+
+                        <li>MySQL
+                            <div class="container">
+                                <div class="skill mysql">80%</div>
+                            </div>
+                        </li>
+                        <li>Java
+                            <div class="container">
+                                <div class="skill java">80%</div>
+                            </div>
+                        </li>
+                        <li>HTML
+                            <div class="container">
+                                <div class="skill html">80%</div>
+                            </div>
+                        </li>
+                        <li>CSS
+                            <div class="container">
+                                <div class="skill css">80%</div>
+                            </div>
+                        </li>
+
+                        <li>Django
+                            <div class="container">
+                                <div class="skill djgo">80%</div>
+                            </div>
+                        </li>
+                        <li>Statistics
+                            <div class="container">
+                                <div class="skill stat">80%</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Slide 3 - Education -->
+            <div class="swiper-slide">
+                <div id="education-container">
+                    <h2>EDUCATION</h2>
+                    <p>
+                        <h3>Bachelor's in computer science engineering Specialization in data science analytics </h3>
+                         DIT University, Dehradun<br>
+                        Session: 2020-2024 | Score: 6.56 CGPA<br>
+                        <h3>Intermediate (CBSE)</h3>  SGRR Public School, Dehradun<br>
+                        Session: 2019-2020 <br>
+                        <h3>Matriculation (CBSE)</h3>  DAV Public School, Dehradun<br>
+                        Session: 2018-2019
+                    </p>
+                </div>
+            </div>
+
+            <!-- Slide 4 - Certifications and Awards -->
+            <div class="swiper-slide">
+                <div id="certifications-awards-container">
+                    <h2>CERTIFICATIONS & AWARDS</h2>
+                    <ul>
+                        <li>Introduction to Data Science from University of Michigan</li>
+                        <li>Introduction to DL & NN with Keras IBM</li>
+                        <li>Tools for Data Science from Coursera.com</li>
+                        <li>Introduction to Software Engineering from IBM</li>
+                        <li>AI for Everyone from Deeplearning.AI</li>
+                        <li>R programming from Johns Hopkins University</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
