@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh Dabral - Resume</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="poetsen-one-regular">Ansh Dabral</h1>
+            <div class="icons">
+                <a href="mailto:anshdabral182@gmail.com">
+                    <img src="email.png" alt="Email" class="icon-img" style="height: 10%; width: 10%;">
+                </a>
+                <a href="https://www.linkedin.com/in/ansh-dabral-8847b61b1/" target="_blank">
+                    <img src="linkedin.png" alt="LinkedIn" class="icon-img" style="height: 10%; width: 10%;">
+                </a>
+                <a href="https://github.com/AnshD2002" target="_blank">
+                    <img src="github.png" alt="GitHub" class="icon-img" style="height: 10%; width: 10%;">
+                </a>
+            </div>
+            <button onclick="scrollToContent()" class="more-btn">More about me</button>
+        </div>
+    </header>
+
+    <div class="about-me" id="about-me">
+        <section>
+            <h2 class="montserrat-about-me">About Me</h2>
+            <p class="reddit-mono" id="about-me-content">
+                <!-- Content will be dynamically added here -->
+            </p>
+            <a href="anshdabralresume.pdf" download>
+                <button  class="resume-btn">Resume</button>
+              </a>
+        </section>
+    </div>
+    
+    <div class="skills">
+        <ul class="tab-list">
+            <li class="tab-item active" data-tab="technical-competencies">Technical Competencies</li>
+            <li class="tab-item" data-tab="interpersonal-skills">Interpersonal Skills</li>
+        </ul>
+        
+        <div class="tab-content active" id="technical-competencies">
+            <section>
+                <div class="skill">
+                    <label for="python">Python&ensp; </label><br>
+                    <progress id="python" value="90" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="r">R </label><br>
+                    <progress id="r" value="70" max="80"></progress>
+                </div>
+                <div class="skill">
+                    <label for="mysql">MySQL</label><br>
+                    <progress id="mysql" value="80" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="java">Java</label><br>
+                    <progress id="java" value="85" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="DataStructure">Data Structure </label><br>
+                    <progress id="DataStructure" value="90" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="html">HTML</label><br>
+                    <progress id="html" value="95" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="css">CSS</label><br>
+                    <progress id="css" value="90" max="100"></progress>
+                </div>
+            </section>
+        </div>
+        
+        <div class="tab-content" id="interpersonal-skills">
+            <section>
+                <div class="skill">
+                    <label for="team-leadership">Team Leadership</label><br>
+                    <progress id="team-leadership" value="85" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="problem-solving">Problem Solving</label><br>
+                    <progress id="problem-solving" value="80" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="decision-making">Decision Making</label><br>
+                    <progress id="decision-making" value="75" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="goal-oriented">Goal Oriented</label><br>
+                    <progress id="goal-oriented" value="85" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="creativity">Creativity</label><br>
+                    <progress id="creativity" value="80" max="100"></progress>
+                </div>
+                <div class="skill">
+                    <label for="adaptablity">Adaptablity</label><br>
+                    <progress id="adaptablity" value="75" max="100"></progress>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    <div class="Project-main">
+        <h1>My GitHub Projects</h1>
+    
+        <div class="projects-container">
+            <div class="project">
+                <h2>Resume Website</h2>
+                <p>Description: A personal resume website built with HTML, CSS, and JavaScript.</p>
+                <p class="languages">Languages: HTML, CSS, JavaScript</p>
+                <p>Last Updated: 2024-05-20</p>
+                <div class="buttons">
+                    <a href="https://github.com/AnshD2002/Resume_website" target="_blank">View Repo</a>
+                    <a href="https://github.com/AnshD2002/Resume_website.git" target="_blank">Clone Project</a>
+                    <div class="star-button">
+                        <a href="#" target="_blank">Star (0)</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="project">
+                <h2>Railway Reservation </h2>
+                <p>Description: A Python project for metro route management.</p>
+                <p class="languages">Languages: Java, MySQL, JDBC, Swing </p>
+                <p>Last Updated: 2024-03-15</p>
+                <div class="buttons">
+                    <a href="https://github.com/AnshD2002/Railway_reservation_project" target="_blank">View Repo</a>
+                    <a href="https://github.com/AnshD2002/Railway_reservation_project.git" target="_blank">Clone Project</a>
+                    <div class="star-button">
+                        <a href="#" target="_blank">Star (0)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <h2>SMS Spam Detection</h2>
+                <p>Description: A machine learning project for detecting SMS spam.</p>
+                <p class="languages">Languages: Python</p>
+                <p>Last Updated: 2024-02-10</p>
+                <div class="buttons">
+                    <a href="https://github.com/AnshD2002/SMS_Spam_Detector" target="_blank">View Repo</a>
+                    <a href="https://github.com/AnshD2002/SMS_Spam_Detector.git" target="_blank">Clone Project</a>
+                    <div class="star-button">
+                        <a href="#" target="_blank">Star (0)</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="project">
+                <h2>Movie Recommendation system</h2>
+                <p>Description: A machine learning project for Recommending movies using vectorization.</p>
+                <p class="languages">Languages: Python, Sklearn, Streamlit</p>
+                <p>Last Updated: 2024-01-25</p>
+                <div class="buttons">
+                    <a href="https://github.com/AnshD2002/movie-recommendation-system" target="_blank">View Repo</a>
+                    <a href="https://github.com/AnshD2002/movie-recommendation-system.git" target="_blank">Clone Project</a>
+                    <div class="star-button">
+                        <a href="#" target="_blank">Star (0)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container" id="main-content">
+
+        <section>
+            <h2>Certifications & Awards</h2>
+            <ul>
+                <li><a href="https://coursera.org/share/1a4cb76d919723603b2d896290fc8ff1" target="_blank">Introduction to Data Science from University of Michigan</a></li>
+                <li><a href="https://coursera.org/share/ba0983d234572ee79469fb13f0f813bf" target="_blank">Introduction to DL & NN with Keras from IBM</a></li>
+                <li><a href="https://coursera.org/share/74ec590113bc77df057fc22b1675b62f" target="_blank">Machine Learning Foundations from University of Washington</a></li>
+                <li><a href="https://coursera.org/share/f781565dd9c475d06781aa65463792da" target="_blank">Introduction to Software Engineering from IBM</a></li>
+                <li><a href="https://coursera.org/share/21a2c836a6a88a1faf8e45d238c2bb42" target="_blank">AI for Everyone from Deeplearning.AI</a></li>
+                <li><a href="https://coursera.org/share/61cad562830bd7608ef7a94fc75f85ee" target="_blank">R Programming from Johns Hopkins University</a></li>
+                <li><a href="https://coursera.org/share/ba0983d234572ee79469fb13f0f813bf" target="_blank">Introduction to Big Data with Spark and Hadoop from IBM</a></li>
+            </ul>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ansh Dabral. All rights reserved.</p>
+    </footer>
+
+    <script src="resume.js"></script>
+</body>
+</html>
